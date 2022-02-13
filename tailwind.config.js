@@ -17,8 +17,8 @@ module.exports = {
         body: ['"Open Sans"', 'sans-serif']
       },
       backgroundImage: {
-        'curve-mobile': "url('/assets/images/bg-curve-mobile.svg')",
-        'curve-desktop': "url('/assets/images/bg-curve-desktop.svg')",
+        'curve-mobile': "url('/public/assets/images/bg-curve-mobile.svg')",
+        'curve-desktop': "url('/public/assets/images/bg-curve-desktop.svg')",
       }
     },
   },
