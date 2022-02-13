@@ -7,8 +7,8 @@ module.exports = {
         'desaturated-blue': 'hsl(238, 22%, 44%)',
         'bright-blue': 'hsl(224, 93%, 58%)',
         'moderate-cyan': 'hsl(170, 45%, 43%)',
-        'light-grayish-blue': 'hsl(240, 75%, 98%)',
-        'light-gray': 'hsl(0, 0 %, 75 %)'
+        'light-grayish-blue': 'hsl(221, 100%, 71%)',
+        'light-gray': 'hsl(0, 0%, 75%)'
       },
       fontFamily: {
         heading: ['Raleway', 'Arial'],
@@ -16,6 +16,10 @@ module.exports = {
         'header-nav': ['Raleway', 'Arial'],
         body: ['"Open Sans"', 'sans-serif']
       },
+      backgroundImage: {
+        'curve-mobile': "url('/assets/images/bg-curve-mobile.svg')",
+        'curve-desktop': "url('/assets/images/bg-curve-desktop.svg')",
+      }
     },
   },
   plugins: [],
