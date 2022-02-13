@@ -672,22 +672,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
-.p-2{
-  padding: 0.5rem;
-}
-
-.p-\[6vw\]{
-  padding: 6vw;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-\[6vw\]{
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-2{
@@ -715,9 +712,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 3rem;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-\[12vw\]{
+  padding-left: 12vw;
+  padding-right: 12vw;
 }
 
 .py-10{
@@ -725,48 +722,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
-.px-\[\]{
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[2vw\]{
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
-.px-\[5vw\]{
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-.px-\[5\.5vw\]{
-  padding-left: 5.5vw;
-  padding-right: 5.5vw;
-}
-
-.px-\[56vw\]{
-  padding-left: 56vw;
-  padding-right: 56vw;
-}
-
-.px-\[6vw\]{
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-
-.px-\[12vw\]{
-  padding-left: 12vw;
-  padding-right: 12vw;
-}
-
-.py-\[6vw\]{
+.pt-\[6vw\]{
   padding-top: 6vw;
-  padding-bottom: 6vw;
-}
-
-.pt-5{
-  padding-top: 1.25rem;
 }
 
 .pb-20{
@@ -803,10 +760,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-4{
   padding-bottom: 1rem;
-}
-
-.pt-\[6vw\]{
-  padding-top: 6vw;
 }
 
 .text-center{
