@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Fylo landing page with two column layout challenge by Frontend Mentor."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -14,12 +18,33 @@
     <!-- Font Awesome 5 CDN -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/brands.css"
+      integrity="sha384-S5yUroXKhsCryF2hYGm7i8RQ/ThL96qmmWD+lF5AZTdOdsxChQktVW+cKP/s4eav"
       crossorigin="anonymous"
     />
+    <style>
+      .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+      }
+      .fa-facebook-f:before {
+        content: "\f39e";
+      }
+      .fa-instagram:before {
+        content: "\f16d";
+      }
+      .fa-twitter:before {
+        content: "\f099";
+      }
+    </style>
+
     <!-- My Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.min.css" />
   </head>
   <body class="font-body">
     <header class="px-[6vw] pt-[6vw] pb-20">
@@ -99,7 +124,7 @@
             </p>
 
             <p>
-              <a>
+              <a href="#" aria-label="See how Fylo works">
                 <span
                   class="mx-auto w-fit text-xs pb-1 text-moderate-cyan border-b-moderate-cyan border-b flex"
                 >
