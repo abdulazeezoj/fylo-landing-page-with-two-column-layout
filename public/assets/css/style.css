@@ -653,7 +653,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-curve-mobile{
-  background-image: url('/public/assets/images/bg-curve-mobile.svg');
+  background-image: url('/assets/images/bg-curve-mobile.svg');
 }
 
 .bg-\[length\:450\%_100\%\]{
